@@ -1,0 +1,46 @@
+dependency management
+    manage 3rd party libraries and frameworks
+    
+    dependencies can have their own dependencies
+        transitive or secondary
+        
+    solution -- package manager
+        pip
+        
+package repositories
+    PyPI
+    
+pip3 install [name]
+    
+prefer virtual environments
+
+outdated packages
+    pip list --outdated
+    pip install --upgrade
+    
+uninstall 
+    pip uninstall [name]
+        does not uninstall secondary dependencies
+
+.........................        
+Virt Env
+.........................
+
+avoids version conflicts
+
+isolate dependencies by project
+sandbox each project
+
+python3 -m venv ./venv
+source ./venv/bin/activate
+
+once virt env is activated ... you can pip install packages
+
+deactivating virt env
+    deactivate
+    
+destroying virt env
+    
+
+
+
