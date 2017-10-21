@@ -40,7 +40,10 @@ deactivating virt env
     deactivate
     
 destroying virt env
+    rm -rf venv/
+    or .. more safely ... delete the folder in file mgr
     
+
 
 
 
